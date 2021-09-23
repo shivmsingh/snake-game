@@ -1,6 +1,6 @@
 function init() {
   canvas = document.getElementById("snakeCanvas");
-  H = canvas.height = 750;
+  H = canvas.height = 585;
   W = canvas.width = 1000;
   pen = canvas.getContext("2d");
   cs = 30;
