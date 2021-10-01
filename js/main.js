@@ -20,6 +20,7 @@ function init() {
     size: 5,
     direction: "right",
 
+    /*Created Snake*/
     createSnake: function () {
       for (var i = this.init_len; i >= 0; i--) {
         this.cells.push({
@@ -139,6 +140,7 @@ function getRandomFood() {
   return food;
 }
 
+/*Game Loop*/
 function gameloop() {
   if (game_over == true) {
     clearInterval(f);
